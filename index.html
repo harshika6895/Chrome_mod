@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Setting Encoding Standards -->
+  <meta charset="utf-8" />
+
+  <!-- Defining Viewport to Screen Size -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Disabling Search Engines to Scan this Page -->
+  <meta name="robots" content="noindex" />
+
+  <!-- Linking Style Sheet -->
+  <link rel="stylesheet" href="css/style.css" class="style">
+
+  <!-- Setting Title -->
+  <title>Harshika's Chrome</title>
+</head>
+
+<body>
+  <!-- Positioning Time Container to Center and Disabling Select -->
+  <div class="center disable-select">
+    <!-- For utilizing datetime attribute of time tag to set time in machine understandable form -->
+    <time class="clock" id="clock"></time>
+  </div>
+  <!-- Letting Users to Search Directly -->
+  <form autocomplete="off" class="center overlay search-form" id="search-form" spellcheck="false">
+    <div>
+      <input class="search-input" id="search-input" title="search" type="text" />
+      <!-- Container for Search Suggestions -->
+      <ul class="search-suggestions" id="search-suggestions"></ul>
+    </div>
+  </form>
+  <!-- Setting some content aside. Providing famous website suggestions -->
+  <aside class="center help overlay disable-select" id="help"></aside>
+
+
+  <!-- Linking JavaScript -->
+  <!-- <script src="js/svg-inject.min.js"></script> -->
+  <script src="js/config.js"></script>
+  <script src="js/body.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/form.js"></script>
+  <script src="js/help.js"></script>
+  <script src="js/influencers.js"></script>
+  <script src="js/queryParser.js"></script>
+  <script src="js/suggester.js"></script>
+  <script src="js/index.js"></script>
+</body>
+
+</html>
